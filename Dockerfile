@@ -1,6 +1,7 @@
 FROM ubuntu:15.04
 
 RUN apt-get update
+RUN apt-get upgrade -y
 RUN apt-get install -y python2.7 python-pip python-dev
 RUN apt-get install -y python-cairo
 RUN apt-get install -y python-numpy
